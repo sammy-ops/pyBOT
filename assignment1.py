@@ -16,14 +16,14 @@ def show_time():
 # Function to suggest a random activity
 def suggest_activity():
     activities = [
-        "Go for a walk 🚶",
-        "Read a book 📖",
-        "Listen to music 🎵",
-        "Try learning Python 🐍",
-        "Watch a movie 🎬",
-        "Exercise for 10 minutes 🏋️",
-        "Meditate for a while 🧘",
-        "Write a short journal entry ✍️"
+        "Go for a walk ",
+        "Read a book ",
+        "Listen to music ",
+        "Try learning Python ",
+        "Watch a movie ",
+        "Exercise for 10 minutes ",
+        "Meditate for a while ",
+        "Write a short journal entry"
     ]
     print(f"How about this? {random.choice(activities)}\n")
 
@@ -36,7 +36,7 @@ def chat():
         print("🔹 Menu:")
         print("1. Show the current time ")
         print("2. Suggest an activity ")
-        print("3. Exit 🚪")
+        print("3. Exit")
 
         choice = input("Enter your choice (1/2/3): ")
 
